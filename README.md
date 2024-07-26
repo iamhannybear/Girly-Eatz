@@ -1,2 +1,2 @@
-Make a directory containing yung 2 py files and another folder inside that containing yung html files.
+Make a directory containing the 2 py files and the template folder with the html files.
 Run database file first then yung app.
