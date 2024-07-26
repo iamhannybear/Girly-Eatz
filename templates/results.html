@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Results</title>
+</head>
+<body>
+    <h1> Search Results </h1>
+    <table border="1">
+        <tr>
+            <th>Restaurant Name</th>
+            <th>Restaurant Type</th>
+            <th>Distance</th>
+            <th>Rating</th>
+        </tr>
+        {% for restaurant in results %}
+        <tr>
+            <td>{{ restaurant[1] }}</td>
+            <td>{{ restaurant[2] }}</td>
+            <td>{{ restaurant[3] }}</td>
+            <td>{{ restaurant[4] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    <br>
+    <a href="/">Back to Search</a>
+</body>
+</html>
